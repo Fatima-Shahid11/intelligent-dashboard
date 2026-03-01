@@ -1,6 +1,6 @@
 # Levo.ai Competitive Intelligence Dashboard
 
-A living, AI-augmented competitive intelligence system built for Levo.ai's sales, product, and marketing teams. Replaces scattered Google Docs and stale one-pagers with a single fast reference that stays fresh on demand.
+An AI-powered competitive intelligence system built for Levo.ai's sales, product, and marketing teams.
 
 ---
 
