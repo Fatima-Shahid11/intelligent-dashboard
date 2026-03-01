@@ -125,6 +125,8 @@ const TTL = 1000 * 60 * 60 * 24  // 24 hours
 | `/api/scores` | POST | Generate AI competitive scores for all 5 competitors |
 | `/api/insights` | POST | Generate AI insights and priorities for a given competitor filter (Right now it would generate charts for all competitors, we have omitted filters for now) |
 | `/api/overview-scores` | POST | Generate market coverage and threat scores for the Overview tab |
+| `/api/matrix` | POST | Generate feature matrix comparison scores for all competitors |
+
 
 All routes use `llama-3.1-8b-instant` on Groq. The free tier allows 100,000 tokens per day. Because results are cached, normal dashboard usage consumes no tokens after the first load per session.
 
@@ -138,6 +140,7 @@ All routes use `llama-3.1-8b-instant` on Groq. The free tier allows 100,000 toke
 │   │   ├── scores/route.js
 │   │   ├── insights/route.js
 │   │   └── overview-scores/route.js
+        └── matrix/route.js
 │   ├── layout.js
 │   └── page.js
 ├── components/
